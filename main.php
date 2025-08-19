@@ -1,5 +1,6 @@
 <?php
     include "Functions/Functions.php";
+    include "Functions/Dates.php";
 
     $sample = new Sample();
     $sample->setName("Ryan Gregoire");
@@ -25,7 +26,9 @@
 
     <div class="container">
         <h2 id="el"><?php echo $sample->getName()?></h2>
+        <h3 id="date"><?php (new Date())->getDate()?></h3>
         <button id="button">Click Me See Message</button>
+
     </div>
 
     <script src="TypeScript/main.js"></script>
