@@ -1,0 +1,19 @@
+h2 {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-top: 20vh;
+}
+
+h1 {
+    font-size: 18px;
+    margin-top: 2rem;
+
+    font-family: sans-serif;
+    padding-left: 1rem;
+}
+
+body {
+    height: 200vh;
+}
