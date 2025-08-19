@@ -21,9 +21,12 @@
 </head>
 <body>
 
-
     <h1>Welcome, <?php echo $sample->getName() ?></h1>
-    <h2><?php echo $sample->getName()?></h2>
+
+    <div class="container">
+        <h2 id="el"><?php echo $sample->getName()?></h2>
+        <button id="button">Click Me See Message</button>
+    </div>
 
     <script src="TypeScript/main.js"></script>
 </body>
