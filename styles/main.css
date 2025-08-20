@@ -37,7 +37,7 @@ h1 {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 20px;
 }
 
 #button {
@@ -81,8 +81,24 @@ li {
 }
 
 body {
-    height: 200vh;
+    height: 150vh;
 }
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 190vh;
+    background-color: #101010;
+    color: #fff;
+
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+footer > div {
+    padding: 20px;
+}
+
 
 .container {
     display: grid;

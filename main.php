@@ -1,7 +1,6 @@
 <?php
     include "Functions/Functions.php";
     include "Functions/Dates.php";
-    include "ColorsButtons/DarkButtonColor.php";
 
     $sample = new Sample();
     $sample->setName("Ryan Gregoire");
@@ -32,7 +31,7 @@
 
         <ul>
             <li>
-                <a href="">Home</a>
+                <a href="main.php">Home</a>
                 <a href="./Pages/Projects.php">Projects</a>
                 <a href="">Contact</a>
 
@@ -51,6 +50,15 @@
 
     </div>
 
+    <footer>
+        <div>
+            <p>&copy 2025 | Ryan James </p>
+        </div>
+    </footer>
+
     <script src="TypeScript/main.js"></script>
+    <script src="ColorsButtons/DarkButtonColor.js"></script>
+    <script src="ColorsButtons/LightButtonColor.js"></script>
+
 </body>
 </html>
