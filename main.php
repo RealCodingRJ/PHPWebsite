@@ -1,6 +1,7 @@
 <?php
     include "Functions/Functions.php";
     include "Functions/Dates.php";
+    include "ColorsButtons/DarkButtonColor.php";
 
     $sample = new Sample();
     $sample->setName("Ryan Gregoire");
@@ -8,12 +9,14 @@
     $title = new Sample();
     $title->setName("Welcome To Website | Home");
 
+
 ?>
 
 <!doctype html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -22,12 +25,29 @@
 </head>
 <body>
 
-    <h1>Welcome, <?php echo $sample->getName() ?></h1>
+    <header>
+        <div>
+            <h1>Welcome, <?php echo $sample->getName() ?></h1>
+        </div>
 
+        <ul>
+            <li>
+                <a href="">Home</a>
+                <a href="">Projects</a>
+                <a href="">Contact</a>
+
+                <button id="dark">Dark</button>
+                <button id="light">Light</button>
+
+            </li>
+
+        </ul>
+    </header>
+    
     <div class="container">
         <h2 id="el"><?php echo $sample->getName()?></h2>
         <h3 id="date"><?php (new Date())->getDate()?></h3>
-        <button id="button">Click Me See Message</button>
+        <button id="button" onclick="">Click Me See Message</button>
 
     </div>
 
