@@ -7,6 +7,12 @@
     $title = new Sample();
     $title->setName("Welcome To Website | Home");
 
+    function getAgeYears(int $years_old): int {
+
+        return $years_old;
+    }
+
+
 ?>
 
 <!doctype html>
@@ -42,7 +48,8 @@
 </header>
 
     <div class="wrapper">
-        <p>Hello I am Ryan James, and I am a Developer using Thr Following</p>
+        <p>Hello I am Ryan James, and I am  a <?php echo getAgeYears(25)?> Year Old, Developer using Thr Following</p>
+
         <ul>
             <li>1: PHP</li>
             <li>2: JavaScript</li>
