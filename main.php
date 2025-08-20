@@ -16,8 +16,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="Pages/styles/main.css">
+    <link rel="stylesheet" href="Pages/styles/mobile.css">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -36,7 +36,7 @@
                 <a target="_blank" href="main.php">Home</a>
                 <a target="_blank" href="./Pages/Projects.php">Projects</a>
                 <a href="./Pages/AboutMe.php">About</a>
-                <a href="#">Contact</a>
+                <a target="_blank" href="CustomFunctions/CountingDownDays.php">Birthday</a>
 
                 <button id="dark">Dark</button>
                 <button id="light">Light</button>
