@@ -31,9 +31,10 @@
 
         <ul>
             <li>
-                <a href="main.php">Home</a>
-                <a href="./Pages/Projects.php">Projects</a>
-                <a href="">Contact</a>
+                <a target="_blank" href="main.php">Home</a>
+                <a target="_blank" href="./Pages/Projects.php">Projects</a>
+                <a href="./Pages/AboutMe.php">About</a>
+                <a href="#">Contact</a>
 
                 <button id="dark">Dark</button>
                 <button id="light">Light</button>
@@ -45,7 +46,7 @@
 
     <div class="container">
         <h2 id="el"><?php echo $sample->getName()?></h2>
-        <h3 id="date"><?php (new Date())->getDate()?></h3>
+        <h3 id="date"><?php new Date()->getDate()?></h3>
         <button id="button" onclick="">Click Me See Message</button>
 
     </div>

@@ -23,7 +23,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Website | Projects</title>
 </head>
 <body>
 
@@ -34,8 +34,9 @@
 
     <ul>
         <li>
-            <a href="../main.php">Home</a>
-            <a href="">Contact</a>
+            <a target="_blank" href="../main.php">Home</a>
+            <a target="_blank" href="">Contact</a>
+            <a href="./AboutMe.php">About</a>
 
             <button id="dark">Dark</button>
             <button id="light">Light</button>
@@ -48,7 +49,7 @@
 
     <main>
 
-        <h2><?php echo (new WELCOMEUser())->getMessage()?></h2>
+        <h2><?php echo new WELCOMEUser()->getMessage()?></h2>
 
     </main>
 

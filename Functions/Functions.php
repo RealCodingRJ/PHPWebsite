@@ -3,9 +3,9 @@
     class Sample
     {
 
-        public $name;
+        public string $name;
 
-        function setName($name)
+        function setName($name): void
         {
             $this->name = $name;
         }
