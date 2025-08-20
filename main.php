@@ -8,9 +8,6 @@
     $title = new Sample();
     $title->setName("Welcome To Website | Home");
 
-
-
-
 ?>
 
 <!doctype html>

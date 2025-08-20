@@ -12,16 +12,19 @@
 
     if ($diff == $date2) {
 
-        echo "Happy Birthday... You Are " . 1999 - new Date()->getDate();
-        echo "You Are: " . getAgeYears(25 + 1);
+        $result = trim(str_shuffle(strtoupper("Happy Birthday... You Are " .  1999 - new Date()->getDate())));
+        $message = trim(str_shuffle(strtoupper("You Are: " . getAgeYears(25 + 1))));
+        echo $result;
+        echo $message;
 
     }
 ?>
 
-
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../Pages/styles/mobile.css">
+    <link rel="stylesheet" href="../Pages/styles/main.css">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -30,7 +33,31 @@
 </head>
 <body>
 
-    <h2>Birthday is in: <?php echo $diff->format("%a days")?></h2>
+<header>
+    <div>
+        <h1></h1>
+    </div>
+
+    <ul>
+        <li>
+            <a target="_blank" href="../main.php">Home</a>
+            <a target="_blank" href="">Contact</a>
+            <a href="../Pages/AboutMe.php">About</a>
+            <a target="_blank" href="hp">Birthday</a>
+
+            <button id="dark">Dark</button>
+            <button id="light">Light</button>
+
+        </li>
+
+    </ul>
+</header>
+
+
+<h2>Birthday is in: <?php echo $diff->format("%a days")?></h2>
+
+<script src="../ColorsButtons/DarkButtonColor.js"></script>
+<script src="../ColorsButtons/LightButtonColor.js"></script>
 
 </body>
 </html>
