@@ -33,7 +33,7 @@
         <ul>
             <li>
                 <a href="">Home</a>
-                <a href="">Projects</a>
+                <a href="./Pages/Projects.php">Projects</a>
                 <a href="">Contact</a>
 
                 <button id="dark">Dark</button>
@@ -43,7 +43,7 @@
 
         </ul>
     </header>
-    
+
     <div class="container">
         <h2 id="el"><?php echo $sample->getName()?></h2>
         <h3 id="date"><?php (new Date())->getDate()?></h3>
