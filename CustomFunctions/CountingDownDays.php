@@ -43,7 +43,7 @@
             <a target="_blank" href="../main.php">Home</a>
             <a target="_blank" href="">Contact</a>
             <a href="../Pages/AboutMe.php">About</a>
-            <a target="_blank" href="hp">Birthday</a>
+            <a target="_blank" href="CountingDownDays.php">Birthday</a>
 
             <button id="dark">Dark</button>
             <button id="light">Light</button>
